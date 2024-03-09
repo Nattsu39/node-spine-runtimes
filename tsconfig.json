@@ -1,0 +1,11 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "./node-spine-core"
+		},
+		{
+			"path": "./node-spine-webgl"
+		}
+	]
+}

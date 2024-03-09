@@ -1,0 +1,40 @@
+{
+	"name": "@node-spine-runtimes/runtimes",
+	"version": "0.1.0",
+	"description": "Headless spine-ts runtime for exporting Spine animations and converting .skel formats.",
+	"scripts": {
+		"prepublish": "npm run clean && npm run build",
+		"clean": "npx rimraf node-spine-core/dist node-spine-webgl/dist",
+		"build": "npm run clean && npx tsc -b -clean && npx tsc -b"
+	},
+	"author": "Nattsu39",
+	"license": "LicenseRef-LICENSE",
+	"keywords": [
+		"gamedev",
+		"animations",
+		"2d",
+		"spine",
+		"game-dev",
+		"runtimes",
+		"skeletal"
+	],
+	"workspaces": [
+		"node-spine-core",
+		"node-spine-webgl"
+	],
+	"bugs": {
+		"url": "https://github.com/Nattsu39/node-spine-runtimes/issues"
+	},
+	"homepage": "https://github.com/Nattsu39/node-spine-runtimes#readme",
+	"dependencies": {
+		"axios": "^1.6.7",
+		"canvas": "^2.11.2",
+		"node-canvas-webgl": "^0.3.0"
+	},
+	"devDependencies": {
+		"@types/gl": "^6.0.5",
+		"@types/node": "^20.11.19",
+		"prettier": "3.2.5",
+		"typescript": "^5.3.3"
+	}
+}

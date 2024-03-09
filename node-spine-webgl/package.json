@@ -1,0 +1,36 @@
+{
+	"name": "@node-spine-runtimes/webgl-3.8.99",
+	"version": "0.1.0",
+	"description": "Headless spine-ts runtime for exporting Spine animations and converting .skel formats.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"files": [
+		"dist/**/*",
+		"README.md",
+		"LICENSE"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Nattsu39/node-spine-runtimes.git"
+	},
+	"keywords": [
+		"gamedev",
+		"animations",
+		"2d",
+		"spine",
+		"game-dev",
+		"runtimes",
+		"skeletal"
+	],
+	"author": "Nattsu39",
+	"license": "LicenseRef-LICENSE",
+	"bugs": {
+		"url": "https://github.com/Nattsu39/node-spine-runtimes/issues"
+	},
+	"homepage": "https://github.com/Nattsu39/node-spine-runtimes#readme",
+	"dependencies": {
+		"node-canvas-webgl": "^0.3.0",
+		"@node-spine-runtimes/core-3.8.99": "3.8.99"
+	}
+}
