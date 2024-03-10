@@ -1,6 +1,6 @@
 {
 	"name": "@node-spine-runtimes/webgl-3.8.99",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Headless spine-ts runtime for exporting Spine animations and converting .skel formats.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
