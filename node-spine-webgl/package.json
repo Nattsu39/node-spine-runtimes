@@ -31,6 +31,6 @@
 	"homepage": "https://github.com/Nattsu39/node-spine-runtimes#readme",
 	"dependencies": {
 		"node-canvas-webgl": "^0.3.0",
-		"@node-spine-runtimes/core-3.8.99": "3.8.99"
+		"@node-spine-runtimes/core-3.8.99": "^0.1.0"
 	}
 }
