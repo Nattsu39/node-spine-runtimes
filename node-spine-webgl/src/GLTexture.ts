@@ -4,7 +4,7 @@ import {
 	Texture,
 	TextureFilter,
 	TextureWrap,
-} from "node-spine-core";
+} from "@node-spine-runtimes/core-3.8.99";
 import { ManagedWebGLRenderingContext } from "./WebGL.js";
 
 import { Image as HTMLImageElement } from "canvas";

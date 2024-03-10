@@ -9,7 +9,7 @@ import {
 	PathAttachment,
 	ClippingAttachment,
 	Disposable,
-} from "node-spine-core";
+} from "@node-spine-runtimes/core-3.8.99";
 import { ShapeRenderer } from "./ShapeRenderer.js";
 import { ManagedWebGLRenderingContext } from "./WebGL.js";
 

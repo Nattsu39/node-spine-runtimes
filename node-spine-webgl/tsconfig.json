@@ -5,7 +5,7 @@
 		"rootDir": "./src",
 		"outDir": "./dist",
 		"paths": {
-			"node-spine-core": ["../node-spine-core/src"]
+			"@node-spine-runtimes/core-3.8.99": ["../node-spine-core/src"]
 		},
 		"typeRoots": ["./typings/"]
 	},

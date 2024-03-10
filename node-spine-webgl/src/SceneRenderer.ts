@@ -5,7 +5,7 @@ import {
 	MathUtils,
 	TextureAtlasRegion,
 	Disposable,
-} from "node-spine-core";
+} from "@node-spine-runtimes/core-3.8.99";
 import { OrthoCamera } from "./Camera.js";
 import { GLTexture } from "./GLTexture.js";
 import { PolygonBatcher } from "./PolygonBatcher.js";

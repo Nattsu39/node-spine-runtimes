@@ -11,7 +11,7 @@ import {
 	MeshAttachment,
 	ClippingAttachment,
 	ArrayLike,
-} from "node-spine-core";
+} from "@node-spine-runtimes/core-3.8.99";
 import { GLTexture } from "./GLTexture.js";
 import { PolygonBatcher } from "./PolygonBatcher.js";
 import {

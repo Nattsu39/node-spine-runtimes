@@ -1,4 +1,4 @@
-import { Color, Vector2, MathUtils, Disposable } from "node-spine-core";
+import { Color, Vector2, MathUtils, Disposable } from "@node-spine-runtimes/core-3.8.99";
 import { WebGLRenderingContext } from "gl";
 import { Mesh, Position2Attribute, ColorAttribute } from "./Mesh.js";
 import { Shader } from "./Shader.js";

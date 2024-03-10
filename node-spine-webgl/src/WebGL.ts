@@ -1,4 +1,4 @@
-import { Restorable, BlendMode } from "node-spine-core";
+import { Restorable, BlendMode } from "@node-spine-runtimes/core-3.8.99";
 import { Canvas } from "node-canvas-webgl";
 import { WebGLRenderingContext } from "gl";
 

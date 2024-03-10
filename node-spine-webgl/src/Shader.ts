@@ -4,7 +4,7 @@ import {
 	WebGLUniformLocation,
 	WebGLRenderingContext,
 } from "gl";
-import { Restorable, Disposable } from "node-spine-core";
+import { Restorable, Disposable } from "@node-spine-runtimes/core-3.8.99";
 import { ManagedWebGLRenderingContext } from "./WebGL.js";
 
 export class Shader implements Disposable, Restorable {

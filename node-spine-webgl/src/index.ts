@@ -11,4 +11,4 @@ export * from "./SkeletonDebugRenderer.js";
 export * from "./SkeletonRenderer.js";
 export * from "./Vector3.js";
 export * from "./WebGL.js";
-export * from "node-spine-core";
+export * from "@node-spine-runtimes/core-3.8.99";

@@ -9,7 +9,7 @@ import {
 } from "./Mesh.js";
 import { Shader } from "./Shader.js";
 import { ManagedWebGLRenderingContext } from "./WebGL.js";
-import { Disposable } from "node-spine-core";
+import { Disposable } from "@node-spine-runtimes/core-3.8.99";
 
 export class PolygonBatcher implements Disposable {
 	private context: ManagedWebGLRenderingContext;

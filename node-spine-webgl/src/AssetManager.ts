@@ -1,4 +1,4 @@
-import { AssetManagerBase } from "node-spine-core";
+import { AssetManagerBase } from "@node-spine-runtimes/core-3.8.99";
 import { ManagedWebGLRenderingContext } from "./WebGL.js";
 import { GLTexture } from "./GLTexture.js";
 
